@@ -1,0 +1,18 @@
+.home {
+  @include e(image) {
+    min-height: calc(100vh - 76px);
+    background: url("../images/einstein.jpg") center/cover fixed no-repeat;
+    position: relative;
+  }
+  @include e(banner) {
+    @include pos($pos: absolute, $top: 50%, $left: 15%);
+    h1 {
+      @extend %glow-text;
+    }
+    blockquote {
+      font-style: italic;
+      font-size: em(16px);
+      @extend %glow-text;
+    }
+  }
+}

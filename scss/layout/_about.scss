@@ -1,0 +1,18 @@
+.about {
+  margin-top: em(50px);
+  @include e(caption) {
+    margin: em(50px) 0;
+    width: 80%;
+    margin-left: em(30px);
+    @include mq("medium") {
+      width: 50%;
+      margin-left: em(300px);
+    }
+    h1 {
+      margin-bottom: em(15px);
+    }
+  }
+  h5 {
+    margin-left: 15%;
+  }
+}
