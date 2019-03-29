@@ -379,16 +379,6 @@ body {
   padding-bottom: 3.125em;
 }
 
-.btn-primary {
-  background-color: #6648b1;
-  border: 1px solid #6648b1;
-}
-
-.btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
-}
-
 .home__image {
   min-height: calc(100vh - 76px);
   background: url("../images/einstein.jpg") center/cover fixed no-repeat;
@@ -406,8 +396,6 @@ body {
 
 .navbar {
   background: rgba(0, 0, 0, 0.8);
-  text-transform: uppercase;
-  padding: 0.9375em;
 }
 
 .about {
