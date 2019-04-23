@@ -383,6 +383,7 @@ body {
   min-height: calc(100vh - 76px);
   background: url("../images/einstein.jpg") center/cover fixed no-repeat;
   position: relative;
+  z-index: -1;
 }
 .home__banner {
   position: absolute;

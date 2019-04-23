@@ -3,6 +3,7 @@
     min-height: calc(100vh - 76px);
     background: url("../images/einstein.jpg") center/cover fixed no-repeat;
     position: relative;
+    z-index: -1;
   }
   @include e(banner) {
     @include pos($pos: absolute, $top: 50%, $left: 15%);
